@@ -1,0 +1,22 @@
+form {
+    margin: 0px 60px;
+}
+
+.logo {
+    font-size: 16px;
+}
+img {
+    height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 18px;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    img {
+        height: 14px;
+    }
+}

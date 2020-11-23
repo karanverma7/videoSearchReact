@@ -1,0 +1,40 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.video-item {
+    display: flex;
+    align-items: top;
+    margin: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.video-item img {
+    height: 90px;
+    width: 130px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 800px) {
+    .video-item {
+      width: 90%;
+      margin: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video-item {
+      width: 100%;
+      margin: 20px 0px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px;
+        margin-top: -7px;
+    }
+}
